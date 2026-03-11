@@ -1,0 +1,30 @@
+Python 3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license()" for more information.
+>>> #dictionary
+... #a={keys:values}
+... a={}
+... type(a)
+... a={11:1,22:2,33:3}
+... a
+... a={'c1':['pen','pencil'],'c2':['paper','sharper'],'c3':['glowes','lubber']}
+... a['c1']==['c2']
+... a={'c1':['paa','pes'],'c2':['pam','sha'],'c3':['glo','lu'],'c4':['sas','asd','qwert']}
+... b=a.keys()
+... c=a.values()
+... d=a.items()
+... d
+... a["asdfghjk"]=24345
+... a={'c1':['paa','pes'],'c2':['pam','sha'],'c3':['glo','lu'],'c4':['sas','asd','qwert']}
+... a.update({'c3':['sas','asd','qwert']})
+... a
+... a={12:13,3:4,5:6}
+... b={1:111,2:222,3:333}
+... print(a.get(3))
+... a.update({3:444})
+... print(a)
+... print(a.fromkeys(a))
+... print(a.fromkeys(b))
+... dict.fromkeys(b,a)
+... print(list(zip(a,b)))
+... print(dict(zip(a,b)))
+... print(set(zip(a,b)))
